@@ -1,7 +1,8 @@
 import {Directive, HostListener, Input} from '@angular/core';
 
 @Directive({
-  selector: '[rolesAdministrationOnlyNumber]'
+  selector: '[rolesAdministrationOnlyNumber]',
+  standalone: true,
 })
 export class OnlyNumberDirective {
 
